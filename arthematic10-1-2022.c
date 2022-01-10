@@ -12,11 +12,11 @@ void arthematic(int a,int b)
 	int c=a+b;
 	int d=a-b;
 	int e=a*b;
-	int f=a/b;
+	float f=a/b;
 	int g=a%b;
 	printf("\n%d",c);
 	printf("\n%d",d);
 	printf("\n%d",e);
-	printf("\n%d",f);
+	printf("\n%f",f);
 	printf("\n%d",g);
 }
