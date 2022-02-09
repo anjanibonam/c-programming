@@ -8,13 +8,13 @@ int main()
 	printf("the sum is %d",&s);
 	printf("\nthe average is %d",&a);
 }
-void call(int*n,int*sum,int*avg)
+void cal(int*n,int*sum,int*avg)
 {
 	int i,x;
 	for(i=1;i<=n;i++)
 	{
 		scanf("%d",&x);
-		*sum=*sum+x;
+		*sum=*sum+x;                         
 	}
 	*avg=*sum/(*n);
 }
